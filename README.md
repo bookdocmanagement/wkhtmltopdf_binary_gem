@@ -51,6 +51,10 @@ macOS
 Binaries should be compressed with `gzip --best` after extracting. The matching binary will be extracted on first
 execution of `bin/wkhtmltopdf`.
 
+```
+gzip --best -c usr/local/bin/wkhtmltopdf > wkhtmltopdf_ubuntu_22.04_amd64.gz
+```
+
 ## Testing with Docker
 
 Make sure you have Docker and Docker Compose installed (see https://docs.docker.com/compose/install/ for more
